@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Type the name of the folder you would like to create: " folderName
+read -p "type the name of the folder you would like to create: " folderName
 mkdir "$folderName"
 echo "The $folderName directory has been created."
 cp foldermaker.sh $folderName 
